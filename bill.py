@@ -1,6 +1,5 @@
 import sys
-
-RATE = 5
+Rate=5
 if len(sys.argv) == 2:
     units = float(sys.argv[1])
 else:
@@ -10,5 +9,5 @@ else:
 bill_amount = units * RATE
 
 print("Units Consumed:", units)
-print("Rate per Unit: ₹", RATE)
+print("Rate per Unit: ₹", Rate)
 print("Total Bill Amount: ₹", bill_amount)
