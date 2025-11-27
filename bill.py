@@ -10,4 +10,4 @@ bill_amount = units * Rate  # Ch
 
 print("Units Consumed:", units)
 print("Rate per Unit:", Rate)
-print("Total Bill Amount: ₹", bill_amount)
+print("Total Bill Amount:", bill_amount)
