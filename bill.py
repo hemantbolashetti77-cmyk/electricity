@@ -6,7 +6,7 @@ else:
     print("No input given - using default units")
     units = 100  
 
-bill_amount = units * RATE
+bill_amount = units * Rate  # Ch
 
 print("Units Consumed:", units)
 print("Rate per Unit: ₹", Rate)
